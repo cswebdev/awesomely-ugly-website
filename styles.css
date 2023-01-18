@@ -1,0 +1,146 @@
+/* 
+font-family: 'Anton', sans-serif;
+font-family: 'Comic Neue', cursive;
+font-family: 'EB Garamond', serif; 
+*/
+
+body {
+    background-color: #4a412a;
+    font-size: 20px;
+}
+
+
+.hero-image {
+    background-image: url("https://cdn.xxl.thumbs.canstockphoto.com/baked-beans-closeup-pile-of-baked-beans-slowly-turning-stock-video_csp51212061.jpg");
+    background-color: black;
+    height: 460px;
+    width: 80%;
+    margin: auto;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 10px inset red;
+}
+
+.hero-text>p {
+    color: rgb(250, 250, 250);
+    font-size: 50px;
+}
+
+.hero-text {
+    text-align: right;
+    position: absolute;
+    font-family: 'Comic Neue', cursive;
+    font-size: 40px;
+    background-color: rgba(212, 212, 212, 0.253);
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(29, 8, 37);
+}
+
+[class$="top-container"] {
+    background: rgb(63, 57, 66);
+    background: linear-gradient(90deg, rgb(255, 231, 93) 0%, rgba(103, 148, 86, 1) 100%);
+
+}
+
+
+
+button {
+    color: red;
+    background-color: green;
+    padding: 50px;
+    border: 46px 0px 0px 0px solid transparent;
+    border-radius: 40px 0px 0px 0px;
+}
+
+button:hover {
+    width: 90%;
+    background-color: #474747;
+    color: white;
+}
+
+b[target] {
+    color: white;
+    background-color: black;
+}
+
+p[text="could"] {
+    color: yellow;
+}
+
+
+
+article {
+    background-color: rgba(232, 255, 23, 0.925);
+    margin: 10px;
+    padding: 15px;
+    transform: rotate(.5deg);
+}
+
+article:hover {
+    width: 98%;
+   margin-left: 30px;
+   padding-top: 60px;
+   border: 35px dotted rgb(255, 0, 0);
+   font-size: 23px;
+}
+
+article:hover  img {
+    height: 680px;
+}
+
+
+article p:nth-child(2n) {
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    font-variant: small-caps;
+}
+
+b {
+    background-color: black;
+    color: white;
+}
+
+img {
+    float: left;
+    padding: 0 20px 20px 0;
+    max-width: 60%;
+}
+
+aside {
+    background-color: aquamarine;
+    margin: auto;
+    width: 15%;
+    height: 300px;
+}
+
+aside>ul {
+    font-size: 25px;
+    padding: 10px;
+}
+
+aside>h3 {
+    font-weight: 800;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 3px 5px 2px #474747;
+}
+
+aside>ul>li {
+    margin-top: 50px;
+}
+#color-block{
+    height: 250px;
+    width: 60%;
+    background-color: rgb(177, 135, 113);
+    float: right;
+    border-radius: 40px 40px 0px 0px;
+    bottom: 0;
+    padding: 10px;
+}
